@@ -1,0 +1,282 @@
+/* =====================================================
+   RESPONSIVE.CSS
+   Rane Digital DRM Dashboard
+===================================================== */
+
+/* Reset */
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+html{
+    width:100%;
+    overflow-x:hidden;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow-x:hidden;
+    font-family:Segoe UI,Roboto,Arial,sans-serif;
+    background:#f1f5f9;
+}
+
+#root{
+    width:100%;
+    min-height:100vh;
+    overflow-x:hidden;
+}
+
+/* Images */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* Tables */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-responsive{
+    width:100%;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+/* Form Inputs */
+input,
+select,
+textarea,
+button{
+    max-width:100%;
+}
+
+/* Cards */
+.card{
+    width:100%;
+    border-radius:12px;
+}
+
+/* Grid */
+.grid-2{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.grid-3{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.grid-4{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+/* Header */
+.dashboard-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.header-left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.header-right{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+/* Buttons */
+.btn-group{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+/* ===========================
+   Laptop (1366px)
+=========================== */
+
+@media (max-width:1366px){
+
+.grid-4{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width:992px){
+
+.dashboard-header{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.header-left{
+width:100%;
+}
+
+.header-right{
+width:100%;
+justify-content:flex-start;
+}
+
+.grid-4,
+.grid-3,
+.grid-2{
+grid-template-columns:1fr;
+}
+
+table{
+font-size:12px;
+}
+
+h1{
+font-size:26px;
+}
+
+h2{
+font-size:22px;
+}
+
+h3{
+font-size:18px;
+}
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+.dashboard-header{
+padding:12px;
+}
+
+.header-left img{
+height:50px !important;
+}
+
+.header-left p{
+font-size:12px !important;
+}
+
+.header-right button{
+width:100%;
+}
+
+.btn-group{
+flex-direction:column;
+width:100%;
+}
+
+.btn-group button{
+width:100%;
+}
+
+input,
+select,
+textarea{
+font-size:14px;
+}
+
+table{
+font-size:11px;
+min-width:650px;
+}
+
+.card{
+padding:15px !important;
+}
+
+}
+
+/* ===========================
+   Small Mobile
+=========================== */
+
+@media (max-width:480px){
+
+.dashboard-header{
+padding:10px;
+}
+
+.header-left{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.header-left img{
+height:42px !important;
+}
+
+.header-left p{
+font-size:11px !important;
+}
+
+button{
+font-size:12px !important;
+padding:10px !important;
+}
+
+input,
+select{
+padding:10px !important;
+}
+
+h1{
+font-size:20px;
+}
+
+h2{
+font-size:18px;
+}
+
+h3{
+font-size:16px;
+}
+
+.card{
+padding:12px !important;
+}
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+height:8px;
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#94a3b8;
+border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#f1f5f9;
+}

@@ -1,0 +1,14 @@
+{
+  "_comment": "DigitalDRM Government Holiday list. Sundays are ALWAYS treated as non-working automatically and do not need to be listed here. Add/remove/edit dates below to control which days the reminder/escalation scheduler treats as non-working -- no application code or restart is required; the file is re-read on every scheduled run. Each entry can be a plain 'YYYY-MM-DD' string, or an object with 'date' and an optional 'name' for documentation purposes (the 'name' is not used by the app, it's just for whoever maintains this file).",
+  "holidays": [
+    { "date": "2026-01-26", "name": "Republic Day" },
+    { "date": "2026-03-06", "name": "Holi" },
+    { "date": "2026-04-14", "name": "Tamil New Year" },
+    { "date": "2026-05-01", "name": "May Day" },
+    { "date": "2026-08-15", "name": "Independence Day" },
+    { "date": "2026-08-26", "name": "Ganesh Chaturthi" },
+    { "date": "2026-10-02", "name": "Gandhi Jayanti" },
+    { "date": "2026-10-20", "name": "Diwali" },
+    { "date": "2026-12-25", "name": "Christmas" }
+  ]
+}
