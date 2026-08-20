@@ -8,7 +8,7 @@
 
 import { useState, useEffect, useCallback } from "react"
 import { useAuth } from "../context/AuthContext"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 import { API } from "../services/api"
 
 const ROLE_OPTIONS = [

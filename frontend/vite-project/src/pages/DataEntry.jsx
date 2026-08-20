@@ -14,7 +14,7 @@ import {
   checkSalesLock, checkRejectionPPMLock, checkProductValueLock,
 } from "../services/api"
 import RoleVerificationModal from "../components/RoleVerificationModal"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 
 // The six OVC categories shown as independent cards. Product Value and
 // Rejection PPM are handled by their own dedicated modules/roles and are

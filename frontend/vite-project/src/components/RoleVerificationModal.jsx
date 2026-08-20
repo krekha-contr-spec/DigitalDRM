@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { verifyRoleAccess } from "../services/api"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 
 const ROLE_OPTIONS = [
   { label: "Select your department role", value: "" },

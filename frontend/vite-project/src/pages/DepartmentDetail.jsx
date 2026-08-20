@@ -9,7 +9,7 @@
 
 import { useState, useEffect, useCallback } from "react"
 import { useAuth } from "../context/AuthContext"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 import {
   getProductionTrend, getManpowerTrend, getDespatchTrend, getOVCTrend, getSalesTrend,
   getProductionHistory, getManpowerHistory, getDespatchHistory, getOVCHistory, getSalesHistory,

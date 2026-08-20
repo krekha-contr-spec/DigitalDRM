@@ -35,7 +35,7 @@ import {
   generateMonthlyReport, generateQuarterlyReport, generateYearlyReport,
   generateOverallSummaryReport,
 } from "../services/api"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, PointElement, LineElement, Tooltip, Legend)
 

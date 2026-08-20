@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 import { API } from "../services/api"
 
 const API_BASE = API

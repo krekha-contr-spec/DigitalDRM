@@ -10,7 +10,7 @@ import {
 } from "../services/api"
 import DeptSummaryCard from "../components/DeptSummaryCard"
 import OVCSummaryCard from "../components/OVCSummaryCard"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 
 // Per-department visual identity
 // Order matters here — it's the grid fill order. Product Value sits

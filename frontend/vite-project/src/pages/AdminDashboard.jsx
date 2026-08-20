@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useAuth } from "../context/AuthContext"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 import EmailServicesPanel from "./EmailServicesPanel"
 import PendingApprovals from "./PendingApprovals"
 import { API } from "../services/api"

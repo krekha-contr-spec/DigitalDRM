@@ -1,5 +1,5 @@
 import { useAuth } from "../context/AuthContext"
-import RaneLogo from "../assets/Rane_Group_Logo.jpg"
+import RaneLogo from "../assets/Rane_Group_Logo.jpg";
 
 function Home({ onDashboard, onDataEntry, onManageTeam }) {
   const { user, logout } = useAuth()
