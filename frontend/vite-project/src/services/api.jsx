@@ -4,7 +4,7 @@ import axios from "axios"
 // deployed server IP (or any future host) never has to be hardcoded
 // and edited by hand in multiple files — every API call in this app
 // goes through this one constant.
-export const API = import.meta.env.VITE_API_BASE_URL || "http://10.41.10.13:8080"
+export const API = import.meta.env.VITE_API_BASE_URL || "https://digitaldrm-9.onrender.com"
 
 // Production
 export const getProductionTrend = (plantId, year = null, month = null, view = "daily") => {
